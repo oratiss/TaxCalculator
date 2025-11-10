@@ -16,7 +16,7 @@ namespace congestion.calculator
             // Setup dependency injection
             var services = new ServiceCollection();
 
-            // Use SQLite for this example (easier to set up)
+            // Use Mssql
             var connectionString = "Data Source=congestion_tax.db";
 
             services.AddDbContext<CongestionTaxDbContext>(options =>

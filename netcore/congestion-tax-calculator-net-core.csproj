@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<OutputType>Library</OutputType>
+		<OutputType>Exe</OutputType>
 		<TargetFramework>net9.0</TargetFramework>
 		<RootNamespace>congestion.calculator</RootNamespace>
+		<StartupObject>congestion.calculator.Program</StartupObject>
 	</PropertyGroup>
 
 	<ItemGroup>

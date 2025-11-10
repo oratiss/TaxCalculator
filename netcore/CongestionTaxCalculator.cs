@@ -85,7 +85,7 @@ namespace congestion.calculator
         {
             if (vehicle == null) return false;
 
-            String vehicleType = vehicle.GetVehicleType();
+            string vehicleType = vehicle.GetVehicleType();
 
             // Check against all toll-free vehicle types
             return vehicleType.Equals(TollFreeVehicles.Motorcycle.ToString()) ||

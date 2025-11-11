@@ -30,5 +30,5 @@ public class WeekendRule
 
     // Navigation property
     [ForeignKey("CityId")]
-    public virtual required City City { get; set; }
+    public virtual City City { get; set; }
 }
